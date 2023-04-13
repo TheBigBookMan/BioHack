@@ -21,8 +21,8 @@ const NavBar = () => {
                     } opacity-100  transition `}
                 ></div>
                 <div
-                    className={`absolute w-8 h-1 bg-black right-8 top-4 rounded-2xl  ${
-                        navOpen ? "-rotate-45 -top-0" : ""
+                    className={`absolute w-8 h-1 bg-black right-8  rounded-2xl  ${
+                        navOpen ? "-rotate-45 " : "top-4"
                     } transition`}
                 ></div>
             </ul>
