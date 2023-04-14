@@ -10,7 +10,7 @@ import Home from "./pages/Home";
 
 function App() {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col bg-gradient-to-t from-gray-900 via-blue-900 to-violet-500 h-screen w-screen">
             <NavBar />
             <Home />
         </div>
