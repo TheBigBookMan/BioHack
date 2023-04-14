@@ -18,8 +18,8 @@ const Home = () => {
                             WATCH VIDEO
                         </h1>
                     </div>
-                    <div className="bg-red-500 w-3/6 flex justify-center rounded-r items-center">
-                        <BsFillPlayFill className="text-white" />
+                    <div className="bg-red-500 w-3/6 opacity-40 flex justify-center rounded-r items-center">
+                        <BsFillPlayFill className="text-white opacity-100" />
                     </div>
                 </div>
             </div>
