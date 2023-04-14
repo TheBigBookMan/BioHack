@@ -12,15 +12,14 @@ const Home = () => {
                     {" "}
                     Computational BioHacking
                 </h1>
-                <div className="flex gap-2 border-2 border-red-400 rounded mx-auto w-[240px] h-[60px]">
+                <div className=" relative flex gap-2 border-2 border-red-400 rounded mx-auto w-[240px] h-[60px]">
                     <div className="w-4/6 flex items-center justify-center">
                         <h1 className="text-white text-xs tracking-widest font-bold">
                             WATCH VIDEO
                         </h1>
                     </div>
-                    <div className="bg-red-500 w-3/6 opacity-40 flex justify-center rounded-r items-center">
-                        <BsFillPlayFill className="text-white opacity-100" />
-                    </div>
+                    <div className="bg-red-500 w-3/6 opacity-40 flex justify-center rounded-r items-center"></div>
+                    <BsFillPlayFill className="text-white absolute right-10 top-5" />
                 </div>
             </div>
         </div>
